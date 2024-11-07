@@ -1,8 +1,10 @@
 # Build-WinPE
 Builds a Custom WinPE and add Optional Components
+
 Builds a new Windows PE (WinPE) and add common Optional Components (OCs) to extend the capabilities of the Windows PE you build.
 
 WinPE Optional Components included;
+
 WinPE Optional Components are available when you install the Windows ADK and are located at this path: C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs
 
 The following is a complete listing of all functionality you can add to WinPE by adding WinPE OCs;
@@ -46,19 +48,23 @@ Note: For each WinPE OC, you also need to install its language components, locat
 More details on WinPE are available on Microsoft.com at this URL: https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-intro
 
 Getting Started
+
 What can you do with WinPE? A lot... but according to Microsoft, it is intended to be used to install Windows onto devices and for use with Windows Recovery.
 
 Before you can build and customize a WinPE, you need to install the Windows ADK onto your Technician PC
 
 Requirements
+
 Install the Windows ADK on your Technician PC. If you do not already have the latest Windows ADK installed (including the Windows PE add-on), you can download it from Microsoft at this link: https://docs.microsoft.com/en-us/windows-hardware/get-started/adk-install
 
 Build WinPE
+
 After you have installed the Windows ADK on your Technician PC, launch the Deployment and Imaging Tools Environment (the Command Line Interface (CLI)for the Windows ADK) and run one of the following commands to create a new WinPE;
 
 32-bit WinPE
 
 copype x86 c:\WinPE\x86
+
 64-bit
 
 copype amd64 c:\WinPE\x64
